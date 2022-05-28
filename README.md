@@ -9,16 +9,16 @@ _The Framework Aims at:_
 4. Avoid mixing up concepts for Friendly Websites
 5. Ensuring User satisfaction across different sites
 
-##Languages Used
+## Languages Used
 1. Html
 2. JavaScript
 3. CSS
 4. Typescript
 5. PHP
 
-##Library Used
+## Library Used
 1. Facebook React
 
-##OFFICIAL NAME
+## OFFICIAL NAME
 
 **WebResp Framework**
