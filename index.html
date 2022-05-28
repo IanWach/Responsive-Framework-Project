@@ -5,8 +5,59 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <style>
+                header{
+                        display: flex;
+                        background-color: aquamarine;
+                }
+                .logo{
+                        display: inline;
+                        display: relative;
+                        left: 50px;
+                }
+                .logo-text{
+                        font-weight: bold;
+                        color: brown;
+                }
+                .navbar{
+                        position: relative;
+                        left: 250px;
+                        padding-top: 50px;
+                        display: flex;
+                }
+                .navbar ul{
+                        text-decoration: none;
+                        display: flex;
+                }
+                .navbar ul li{
+                        padding: 5px 20px;
+                        font-weight: bold;
+                        list-style-type: none;
+                        
+                }
+                .navbar button{
+                        position: relative;
+                        right: 50px;
+                       
+                }
+        </style>
 </head>
 <body>
-        
+        <header>
+                <div class="logo">
+                        <h1 class="logo-text">WEBRESP<h3>Framework</h3></h1>
+                </div>
+                <nav class="navbar">
+                        <ul>
+                                <li class="nav-items"><a class="item-links">Home</a></li>
+                                <li class="nav-items"><a class="item-links">About</a></li>
+                                <li class="nav-items"><a class="item-links">Contact Us</a></li>
+                                <li class="nav-items"><a class="item-links">Developers</a></li>
+                        </ul>
+                        <button>
+                                <b>How It Works</b>
+                        </button>
+                </nav>
+        </header>
 </body>
 </html>
