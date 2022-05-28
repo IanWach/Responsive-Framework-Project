@@ -1,5 +1,5 @@
 # Responsive-Framework-Project
-**This is web Responsve Framework aiming at ensuring all Sites are friendly for the Phone, Tablets and Computers`**
+**This is web Responsive Framework aiming at ensuring all Sites are friendly for the Phone, Tablets and Computers`**
 
 _The Framework Aims at:_
 
@@ -18,6 +18,11 @@ _The Framework Aims at:_
 
 ## Library Used
 1. Facebook React
+
+## Software Development Model Used
+1. Feature Based Development Model
+2. Incremental Development Model
+3. WaterFall Development Model
 
 ## OFFICIAL NAME
 
