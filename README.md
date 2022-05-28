@@ -1,6 +1,7 @@
 # Responsive-Framework-Project
 **This is web Responsve Framework aiming at ensuring all Sites are friendly for the Phone, Tablets and Computers`**
-_The Framework Aims at_:
+
+_The Framework Aims at:_
 
 1. Having Better User Interfaces
 2. Making it faster to develop a web responsive site
