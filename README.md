@@ -31,5 +31,5 @@ _The Framework Aims at:_
 
 ## OFFICIAL NAME
 
-**WEBRESP Framework`**
+**IntraResponsive Framework`**
 
