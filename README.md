@@ -31,5 +31,5 @@ _The Framework Aims at:_
 
 ## OFFICIAL NAME
 
-**IntraResponsive Framework`**
+**IntraResponsive Framework**
 
