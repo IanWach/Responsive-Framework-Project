@@ -1,4 +1,7 @@
 # Responsive-Framework-Project
+
+![Image](/Assets/Framework%20Logo.png)
+
 **This is web Responsive Framework aiming at ensuring all Sites are friendly for the Phone, Tablets and Computers`**
 
 ![Main](https://miro.medium.com/max/1008/1*b7y9iLMTD0drlC3Eh6E31A.png)
