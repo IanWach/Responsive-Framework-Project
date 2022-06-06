@@ -6,10 +6,70 @@
                 font-family: 'Roboto Slab', serif;
         }
         .material-symbols-outlined {
-        font-variation-settings:
-        'FILL' 1,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
+                font-variation-settings:
+                'FILL' 1,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+        }
+        /*This is the header section*/
+        
+        
+        .navbar  { grid-area: navigation; }
+        .quick-access { grid-area: access; }
+        .logo { grid-area: logobar; }
+
+
+        .header-sect{
+                background-color: purple;
+                display: grid;
+                grid-template-areas:
+                'logobar navigation navigation navigation navigation access access';
+                gap: 10px 30px;
         }
         
+
+
+        /*The Navigation Bar Styles*/
+
+        .navbar{
+                 display: flex;
+                justify-content: space-between;
+                align-items: center;
+        }
+         ul {        
+                display: flex;
+                align-items: center;
+        }
+
+        ul li {
+                margin-right: 20px;
+                list-style-type: none;
+                padding:5px 20px ;       
+        }
+
+        ul li a{
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+        }
+        /*Quick Access Links*/
+        .quick-access{
+                margin-top: 20px;
+        }
+        .quick-access a{
+                padding-right: 15px;
+                color: rgb(243, 61, 167);
+                font-size: 22px;
+                text-decoration: none;
+                font-weight: bold;
+        }
+        .quick-access button{
+
+        }
+
+        /*A brief Intro*/
+        .landing-sec{
+                background-color: purple;
+                height: 75vh;
+        }
