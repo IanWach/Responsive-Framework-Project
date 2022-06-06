@@ -24,16 +24,23 @@
                 background-color: purple;
                 display: grid;
                 grid-template-areas:
-                'logobar navigation navigation navigation navigation access access';
+                'logobar logobar navigation navigation navigation navigation access';
                 gap: 10px 30px;
         }
         
-
+        /*Logo Section*/
+        .logo{
+                margin-left: 5px;
+                padding: 15px 30px 15px 25px;
+        }
+        .logo-text{
+                color: rgb(252, 164, 0);
+        }
 
         /*The Navigation Bar Styles*/
 
         .navbar{
-                 display: flex;
+                margin-top: 35px;
                 justify-content: space-between;
                 align-items: center;
         }
@@ -45,17 +52,24 @@
         ul li {
                 margin-right: 20px;
                 list-style-type: none;
-                padding:5px 20px ;       
+                padding:0px 20px ;       
         }
 
         ul li a{
                 color: white;
-                font-size: 20px;
+                font-size: 17px;
                 text-decoration: none;
+                font-weight: bold;
+        }
+        .material-symbols-outlined{
+                margin-top: 30px !important;
         }
         /*Quick Access Links*/
         .quick-access{
                 margin-top: 20px;
+        }
+        .quick-access div{
+                margin: 10px 10px;
         }
         .quick-access a{
                 padding-right: 15px;
@@ -65,11 +79,46 @@
                 font-weight: bold;
         }
         .quick-access button{
-
+                margin-right: 15px;
+                border-radius: 25px;
+                padding: 10px 15px;
+                background-color: orange;
+                font-size: 20px;
+                color: black;
         }
 
         /*A brief Intro*/
         .landing-sec{
                 background-color: purple;
-                height: 75vh;
+                height: 65vh;
+        }
+        .intro-container{
+                padding: 30px;
+                width: 90%;
+        }
+        .intro-div{
+               margin-left: auto;
+               margin-right: auto;
+               width: 70%;
+               padding: 15px;
+        }
+        .intro-div h1{
+                font-size: 52px;
+                margin-bottom: 20px;
+        }
+         .main-use{
+                font-size: 60px;
+                color: aqua;
+                text-decoration: underline;
+        }
+        .intro-div p{
+                font-size: 25px;
+        }
+        .intro-div div{
+                margin-left: auto;
+                margin-right: auto;
+                width: 25%;
+        }
+        .intro-div div button{
+                margin-right: 20px;
         }
