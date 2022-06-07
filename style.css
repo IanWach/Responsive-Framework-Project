@@ -6,6 +6,10 @@
                 box-sizing: border-box;
                 font-family: 'Roboto Slab', serif;
         }
+        img{
+                width: 500px;
+                height: 500px;
+        }
 
         /*pink #ff477 purple #36174d  white #f3effe  6f36bc*/
         .material-symbols-outlined {
@@ -47,23 +51,23 @@
                 justify-content: space-between;
                 align-items: center;
         }
-         ul {        
+        .nav-lists {        
                 display: flex;
                 align-items: center;
         }
 
-        ul li {
+        .nav-items {
                 margin-right: 20px;
                 list-style-type: none;
                 padding:0px 20px ;       
         }
 
-        ul li a{
+        .item-links{
                 color: white;
                 font-size: 18px;
                 text-decoration: none;
         }
-        ul li a:hover{
+       .item-links:hover{
                 color: #ff477b;
         }
         .material-symbols-outlined{
@@ -101,10 +105,9 @@
         .landing-sec{
                 background-color: #36174d;
                 height: 75vh;
-                margin-bottom: 30px
         }
         .intro-container{
-                padding: 30px;
+                padding: 0px 30px 30px 30px;
                 width: 100%;
         }
         .intro-div{
@@ -133,6 +136,7 @@
         }
         .framework-tag{
                 color: orange;
+                font-size: 40px;
         }
         .highlight-use{
                 text-decoration: underline;
@@ -164,3 +168,65 @@
                 color: rgba(255,68,123,1);
                 background-color:  rgba(243,239,254,1);     
       }  
+
+      /*This is the section after Landing page*/
+
+        .briefintro-sect{
+            padding: 30px;  
+            background-color:  #d8cbfd; 
+            height: 100%;
+        }
+
+        .brief-container{
+                display: flex;
+        }
+
+        .info-container1{
+                padding-right: 10px;
+        }
+
+        .intro-headingdiv{
+                margin: 10px;
+        }
+
+        .intro-heading{
+                font-size: 60px;
+                font-weight: bold;
+                color: #36174d;
+        }
+        .intro-paragraphdiv{
+                margin-top: 30px;
+                margin-left: 20px;
+                margin-bottom: 30px;
+        }
+        .intro-paragraph{
+                font-size: 30px;
+
+        }
+
+        .benefits-list{
+               margin: 30px;
+               color: #6f36bc;
+
+        }
+        .benefits-list li{
+                list-style-type:decimal;
+                font-size: 22px;
+                padding: 10px;
+                font-weight: bold;
+        }
+
+        /*Intro IMage Styles*/
+
+        .info-container2{
+             height: 100%;    
+        }
+        .intro-imgdiv{
+                height: 80%;
+                margin-top: 100px;
+                margin-bottom: auto;    
+        }
+       .intro-img{
+               
+                  
+        }
