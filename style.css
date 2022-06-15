@@ -118,17 +118,17 @@
                padding: 15px;
         }
         .intro-div h1{
-                font-size: 52px;
+                font-size: 45px;
                 margin-bottom: 60px;
                 color: #ffffff;
         }
          .main-use{
-                font-size: 60px;
+                font-size: 55px;
                 color: aqua;
                 text-decoration: underline;
         }
         .intro-div p{
-                font-size: 27px;
+                font-size: 25px;
                 font-family: 'Charis SIL', serif;
                 font-family: 'Roboto Slab', serif;
                 margin-bottom: 40px;
@@ -174,7 +174,7 @@
 
         .briefintro-sect{
             padding: 30px;  
-            background-color:  #d8cbfd; 
+            background-color:  #ece6ff; 
             height: 100%;
         }
 
@@ -210,6 +210,7 @@
                margin: 30px;
                color: #ff477b;
                display: flex;
+               justify-content: space-between;
 
         }
         .benefits-list li{
@@ -223,14 +224,43 @@
                 color: #36174d;
         }
         /*Additional Buttons*/
+
+        .info-btn1  { grid-area: firstbtn; }
+        .info-btn2 { grid-area: secondbtn; }
+
         .info-btndiv{
                 display: grid;
+                grid-template-areas:
+                'firstbtn secondbtn';
+                gap: 0px;
         }
         .info-btn1{
-                 
+                margin:  auto;
+                background-color:  #ff477b;
+                font-size: 22px;
+                border-radius: 20px;
+                padding: 15px 30px;
+                color:white;
+                font-weight: bold;
         }
         .info-btn2{
+        
+                margin:  auto;
+                background-color: #ffffff;
+                font-size: 22px;
+                border-radius: 20px;
+                padding: 15px 30px;
+                color: #ff477b;
+                font-weight: bold
+        }
+        .info-btn1:hover{
+                background-color: white;;
+                color: black;
+        }
 
+        .info-btn2:hover{
+                background-color: #ff477b;
+                color: white;
         }
         /*Intro IMage Styles*/
 
@@ -245,3 +275,57 @@
        .intro-img{
                            
         }
+        .tag-div1  { grid-area: tagdiv1; }
+        .tag-div2 { grid-area: tagdiv2; }
+        .tags-div{
+                background-color: #fae2e8;
+                padding: 50px 10px;
+                display: flex;
+
+        }
+        .tag-div2{
+                background-image: url(assets/clement-helardot-95YRwf6CNw8-unsplash.jpg);
+                background-size: contain; 
+                background-repeat: no-repeat;            
+                width: 70%;
+
+        }
+        .tag-div1{
+                background-color: #ffffff;
+                padding: 50px 100px;
+                margin:auto auto;
+                border-radius: 70px;
+                width: 80%;
+        }
+        .tag-div1 p{
+                font-size: 25px;
+                color: black;
+                line-height: 60px;
+        }
+       .tags-div p span{
+                font-size: 40px;
+        }
+        .tags-div p span b{
+                font-size: 100px;
+        }
+
+        .steps-sect{
+                background-color: #ffffff;
+        }
+        .steps-container{
+
+        }
+        .steps-div{
+                display: grid;
+                grid-template-areas:'auto auto auto';
+        }
+        .steps{
+                width: 300px;
+                height: 300px;
+                background-color: #ff477b;
+                margin: 10px;
+        }
+        .step-1{
+
+        }
+        
