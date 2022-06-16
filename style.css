@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,700;1,400&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,700;1,400&family=Noto+Serif:wght@700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,700;1,400&family=Libre+Baskerville:ital@0;1&family=Noto+Serif:wght@700&family=Roboto+Slab&display=swap');
         *{
                 margin: 0;
                 padding: 0;
@@ -278,10 +279,10 @@
         .tag-div1  { grid-area: tagdiv1; }
         .tag-div2 { grid-area: tagdiv2; }
         .tags-div{
-                background-color: #fae2e8;
+                background-color: #d2c5fd;
                 padding: 50px 10px;
                 display: flex;
-
+                
         }
         .tag-div2{
                 background-image: url(assets/clement-helardot-95YRwf6CNw8-unsplash.jpg);
@@ -315,17 +316,59 @@
         .steps-container{
 
         }
+        .steps-heading{
+                margin: 40px;
+
+        }
+        .steps-mainh1{
+                font-size: 40px
+        }
+        .steps-mainh1 span{
+                color: #ff477b;
+        }
+        .steps-intropara{
+                width: 650px;
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 35px;
+                color: #36174d;
+                text-align: justify;
+                font-family: 'Libre Baskerville', serif;
+        }
         .steps-div{
                 display: grid;
                 grid-template-areas:'auto auto auto';
+                justify-content: space-around;
         }
         .steps{
                 width: 300px;
-                height: 300px;
-                background-color: #ff477b;
-                margin: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                margin-bottom: 100px;
         }
-        .step-1{
+        .card-header{
+                background-color: #ff477b;
+                color: white;
+                padding: 60px;
+                font-size: 55px;
+                
+        }
+        .card-para{
+                padding: 25px;
+        }
+        .card-para p{
+                font-size: 15px;
+                text-align: left;
+                font-weight: bold;
+        }
+        .card-para h2{
+                font-size: 25px;
+                color: green;
+                text-align: left;
+                padding-bottom: 15px;
+                
+        }
+        .step-1 {
 
         }
         
