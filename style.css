@@ -12,6 +12,16 @@
                 width: 500px;
                 height: 500px;
         }
+        body{
+                max-width: 1400px;
+                margin: auto;
+                margin-top: 50px;
+                justify-content: center;
+                background-image: url(assets/clement-helardot-95YRwf6CNw8-unsplash.jpg);
+                background-position: center;
+                background-size: contain;
+                border-radius: 50px;
+        }
 
         /*pink #ff477 purple #36174d  white #f3effe  6f36bc*/
         .material-symbols-outlined {
@@ -30,10 +40,10 @@
 
 
         .header-sect{
-                background-color: #36174d;
+                background-color: #575658;
                 display: grid;
                 grid-template-areas:
-                'logobar logobar navigation navigation navigation navigation access';
+                'logobar logobar navigation navigation navigation access';
                 gap: 10px 30px;
         }
         
@@ -49,13 +59,13 @@
         /*The Navigation Bar Styles*/
 
         .navbar{
-                margin-top: 35px;
+                margin-top: 25px;
                 justify-content: space-between;
                 align-items: center;
         }
         .nav-lists {        
                 display: flex;
-                align-items: center;
+                justify-content: space-around;
         }
 
         .nav-items {
@@ -65,9 +75,10 @@
         }
 
         .item-links{
-                color: white;
+                color: rgb(255, 255, 255);
                 font-size: 18px;
                 text-decoration: none;
+                font-weight: bold;
         }
        .item-links:hover{
                 color: #ff477b;
@@ -105,8 +116,13 @@
         }
         /*A brief Intro*/
         .landing-sec{
-                background-color: #36174d;
-                height: 75vh;
+                background-color: #36174dcb;
+        }
+        .landing-bg{
+                background-image: url(assets/pexels-christina-morillo-1181467.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
         }
         .intro-container{
                 padding: 0px 30px 30px 30px;
@@ -115,26 +131,25 @@
         .intro-div{
                margin-left: auto;
                margin-right: auto;
-               width: 70%;
+               width: 80%;
                padding: 15px;
         }
         .intro-div h1{
                 font-size: 45px;
                 margin-bottom: 60px;
-                color: #ffffff;
+                color: #91ff00;
         }
          .main-use{
                 font-size: 55px;
                 color: aqua;
-                text-decoration: underline;
         }
         .intro-div p{
                 font-size: 25px;
                 font-family: 'Charis SIL', serif;
-                font-family: 'Roboto Slab', serif;
                 margin-bottom: 40px;
-                color: #ccc1ff;
-                line-height: 40px;
+                color:#ffffff ;
+                line-height: 50px;
+                width: 75%;
         }
         .framework-tag{
                 color: orange;
@@ -158,7 +173,7 @@
                 margin-right: 10px;
         }
         .intro-div div button{
-                margin-right: 20px;
+                margin-right: 150px;
                 border-radius: 35px;
                 padding: 10px 15px;
                 background: rgba(255,68,123,1);
@@ -174,13 +189,14 @@
       /*This is the section after Landing page*/
 
         .briefintro-sect{
-            padding: 30px;  
+            padding: 30px 0px;  
             background-color:  #ece6ff; 
             height: 100%;
         }
 
         .brief-container{
                 display: flex;
+                padding: 50px 50px 100px 50px;
         }
 
         .info-container1{
@@ -196,6 +212,8 @@
                 font-size: 60px;
                 font-weight: bold;
                 color: #36174d;
+                text-align: center;
+                padding-bottom: 30px;
         }
         .intro-paragraphdiv{
                 margin-top: 30px;
@@ -204,6 +222,8 @@
         }
         .intro-paragraph{
                 font-size: 30px;
+                font-family: 'Libre Baskerville', serif;
+                line-height: 50px;
 
         }
 
@@ -269,9 +289,10 @@
              height: 100%;   
         }
         .intro-imgdiv{
-                height: 90%;
+                height: 80%;
                 margin-top: 100px;
-                margin-bottom: auto;    
+                margin-bottom: auto;  
+                margin-right: 0;  
         }
        .intro-img{
                            
@@ -279,8 +300,9 @@
         .tag-div1  { grid-area: tagdiv1; }
         .tag-div2 { grid-area: tagdiv2; }
         .tags-div{
-                background-color: #d2c5fd;
-                padding: 50px 10px;
+                background-color: #ffffff;
+                padding: 100px 10px;
+                padding-bottom: 100px;
                 display: flex;
                 
         }
@@ -292,7 +314,7 @@
 
         }
         .tag-div1{
-                background-color: #ffffff;
+                background-color: #00e1ff;
                 padding: 50px 100px;
                 margin:auto auto;
                 border-radius: 70px;
@@ -310,41 +332,63 @@
                 font-size: 100px;
         }
 
-        .steps-sect{
-                background-color: #ffffff;
+        .how-sect{
+                padding: 100px 30px;
+               background-color: rgb(243, 243, 243);
+                display: flex;
         }
-        .steps-container{
+        .how-img{
+                width: 550px;
+        }
+        .how-heading{
+                margin: 0px 40px 40px 40px;
+                padding-top: 0px;
+                width: 80%;
 
         }
-        .steps-heading{
-                margin: 40px;
-
+        .how-mainh1{
+                font-size: 60px;
+                color: rgb(0, 255, 106);
+                padding-bottom: 30px;
+                text-align: center;
+                
         }
-        .steps-mainh1{
-                font-size: 40px
-        }
-        .steps-mainh1 span{
+        .how-mainh1 span{
                 color: #ff477b;
         }
-        .steps-intropara{
-                width: 650px;
-                font-size: 20px;
+        .how-intropara{
+                font-size: 30px;
+                color: rgb(0, 0, 0);
                 font-weight: bold;
-                line-height: 35px;
-                color: #36174d;
+                line-height: 45px;
                 text-align: justify;
                 font-family: 'Libre Baskerville', serif;
+        }
+        .steps-sect{
+        }
+        .steps-container{
+                background-color: #ffffff;
+        }
+       
+        .steps-heading{
+                font-size: 65px;
+                padding: 70px;
+                text-align: center;
         }
         .steps-div{
                 display: grid;
                 grid-template-areas:'auto auto auto';
                 justify-content: space-around;
+                background-color: #ffffff;
+                padding-top: 70px;
+
         }
         .steps{
                 width: 300px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                box-shadow: 20px -6px 2px 0 rgba(0, 0, 0, 0.089), -23px -8px 2px 0 rgba(247, 4, 61, 0.068);
                 text-align: center;
                 margin-bottom: 100px;
+                border-radius: 50px 50px 0px 0px;
         }
         .card-header{
                 background-color: #ff477b;
@@ -355,6 +399,7 @@
         }
         .card-para{
                 padding: 25px;
+                background-color: #ffffff;
         }
         .card-para p{
                 font-size: 15px;
@@ -369,6 +414,56 @@
                 
         }
         .step-1 {
+                
+        }
+        
+        .qulity-sect{
+                background-color: white;
+                padding: 100px 50px;
+        }
+        .image-quality{
+                
+                padding: 10px;
+                width: 400px;
+                height: 300px;
+        }
+        .first-quality, .second-quality, .third-quality{
+                display: flex;
+                justify-content: space-between;
+                margin: 0px 100px;
+                
+        }
+        .quality{
+                margin: auto auto;
+        }
+
+        .caption-sect{
+                background-color: #0c0b61;
+                color: white;
+                padding: 50px;
+                height: 300px;
+        }
+        .caption-h{
+                font-size: 50px;
+                margin: auto;
+                width: 85%;
+                margin-bottom: 30px;
+        }
+        .caption-para{
+                font-size: 25px;
+                width: 70%;
+                margin: auto 100px;
+                color: #ff477b;
 
         }
         
+       .news-sect{
+                background-color: rgba(255, 255, 255, 0.829);
+                padding: 100px;
+       }
+       .news-div{
+                background-color: #00e1ff;
+                width: 50%;
+                margin: auto;
+                padding: 200px 10px;
+       }
