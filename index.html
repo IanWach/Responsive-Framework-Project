@@ -8,11 +8,14 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <style>
-                section{
-                        
-                }
-        </style>
+      
+      
+        <!--Web Responsive Links-->
+
+       <link rel="stylesheet" href="framework/mobile-resp.css" type="text/css">
+       <link rel="stylesheet" href="framework/tablet-resp.css" type="text/css">
+       <link rel="stylesheet" href="framework/styleresp.css" type="text/css">
+
 </head>
 <body">
         <!--This is the Header Section-->
@@ -27,7 +30,7 @@
                 <!--The Navigation Bar-->
 
                 <nav class="navbar">
-                        <ul class="nav-lists">
+                        <ul class="nav-lists" id="nav-lists">
                                 <li class="nav-items"><a class="item-links " href="#"><span class="material-symbols-outlined">Home</span>Home</a></li>
                                 <li class="nav-items"><a class="item-links  " href="#"><span class="material-symbols-outlined">feed</span>About</a></li>
                                 <li class="nav-items"><a class="item-links" href="#"><span class="material-symbols-outlined">contact_page </span>Contact Us</a></li>
@@ -43,7 +46,7 @@
                                 <button class="quick btn">
                                         <b>Get Started</b>
                                 </button>
-                                <span class="access-icon material-symbols-outlined webresp-hide">menu </span>
+                                <span onclick="showNavbar()" class="access-icon material-symbols-outlined webresp-hide" id="webresp-hide1">menu </span>
 
                         </div>
                 </div>
@@ -201,13 +204,13 @@
                         </div>
                         <div class="quality">
                                 <h2>Easy to Use</h2>
-                                <p></p>
+                                <p>You can easily start using it using the following six simple steps. You don't need to have any special tools. All that is needed is knowledge in HTML and CSS. Basic</p>
                         </div>
                 </div>
                 <div class="second-quality">
                         <div class="quality">
                                  <h2>Flexible</h2>
-                                 <p></p>
+                                 <p>You can easily start using it using the following six simple steps. You don't need to have any special tools. All that is needed is knowledge in HTML and CSS. Basic</p>
                         </div>
                          <div>
                                 <img class="image-quality imageq2" src="assets/clement-helardot-95YRwf6CNw8-unsplash.jpg">
@@ -219,7 +222,7 @@
                         </div>
                         <div class="quality">
                                 <h2>Saves Time</h2>
-                                <p></p>
+                                <p>You can easily start using it using the following six simple steps. You don't need to have any special tools. All that is needed is knowledge in HTML and CSS. Basic</p>
                         </div>
                 </div>
         </section>
@@ -271,5 +274,10 @@
                         
                 </div>
         </footer>
+        <!--Import The JavScript-->
+        <script src="framework/webresp.js"></script>
 </body>
+
+
+
 </html>
