@@ -8,7 +8,7 @@
                 box-sizing: border-box;
                 font-family: 'Roboto Slab', serif;
         }
-        img{
+        img:not(.intro-img){
                 width: 500px;
                 height: 500px;
         }
@@ -287,6 +287,7 @@
 
         .info-container2{
              height: 100%;   
+             margin: auto;
         }
         .intro-imgdiv{
                 height: 80%;
@@ -295,7 +296,7 @@
                 margin-right: 0;  
         }
        .intro-img{
-                           
+                width: 500px;           
         }
         .tag-div1  { grid-area: tagdiv1; }
         .tag-div2 { grid-area: tagdiv2; }
@@ -372,7 +373,7 @@
        
         .steps-heading{
                 font-size: 65px;
-                padding: 70px;
+                padding: 20px 70px 35px 70px;
                 text-align: center;
         }
         .steps-div{
@@ -385,7 +386,7 @@
         }
         .steps{
                 width: 300px;
-                box-shadow: 20px -6px 2px 0 rgba(0, 0, 0, 0.089), -23px -8px 2px 0 rgba(247, 4, 61, 0.068);
+                box-shadow: 20px -6px 2px 0 rgba(0, 0, 0, 0.089), -23px -8px 2px 0 rgba(255, 255, 255, 0.068);
                 text-align: center;
                 margin-bottom: 100px;
                 border-radius: 50px 50px 0px 0px;
