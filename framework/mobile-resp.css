@@ -6,6 +6,12 @@
         margin: auto;
 }
 .mbresp-navbar{
-        display: none ;
+        display: none !important ;
 }
+.mbresp-navlist{
+        display: block;
+}
+.mbresp-navbaritem2{
+        display: flex;
 
+}

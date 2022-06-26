@@ -41,7 +41,7 @@
 
         .header-sect{
                 background-color: #575658;
-                display: grid;
+                display: gri;
                 grid-template-areas:
                 'logobar logobar navigation navigation navigation access';
                 gap: 10px 30px;
