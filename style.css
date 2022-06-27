@@ -13,11 +13,11 @@
                 height: 500px;
         }
         body{
-               /* max-width: 1400px;*/
+               max-width: 1400px;
                 margin: auto;
                 margin-top: 50px;
                 justify-content: center;
-                /*background-image: url(assets/clement-helardot-95YRwf6CNw8-unsplash.jpg);*/
+                background-color: #ff477b;
                 background-position: center;
                 background-size: contain;
                 border-radius: 50px;
