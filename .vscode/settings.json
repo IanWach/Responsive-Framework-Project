@@ -3,5 +3,7 @@
                 "btns",
                 "mbresp",
                 "tbresp"
-        ]
+        ],
+        "editor.fontFamily": "Consolas, 'Courier New', monospace",
+        "workbench.colorTheme": "Peacock"
 }
