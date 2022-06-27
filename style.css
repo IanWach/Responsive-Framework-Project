@@ -13,11 +13,11 @@
                 height: 500px;
         }
         body{
-                max-width: 1400px;
+               /* max-width: 1400px;*/
                 margin: auto;
                 margin-top: 50px;
                 justify-content: center;
-                background-image: url(assets/clement-helardot-95YRwf6CNw8-unsplash.jpg);
+                /*background-image: url(assets/clement-helardot-95YRwf6CNw8-unsplash.jpg);*/
                 background-position: center;
                 background-size: contain;
                 border-radius: 50px;
@@ -41,7 +41,7 @@
 
         .header-sect{
                 background-color: #575658;
-                display: gri;
+                display: grid;
                 grid-template-areas:
                 'logobar logobar navigation navigation navigation access';
                 gap: 10px 30px;
@@ -100,7 +100,7 @@
                 text-decoration: none;
                 font-weight: bold;
         }
-        .quick-access button{
+        .quick-btn{
                 margin-right: 15px;
                 border-radius: 25px;
                 padding: 10px 15px;

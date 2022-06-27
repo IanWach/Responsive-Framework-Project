@@ -1,15 +1,18 @@
-.mbresp-header{
+.tbresp-header{
         display: block;  
   }
   .tbresp-logo{
-          text-align: left;
-          margin-left:20px;
+          text-align: center;
+          margin: auto;
   }
   .tbresp-navbar{
-          display: none;
+          display: none !important ;
   }
-  .tbresp-quickaccess{
-
+  .tbresp-navlist{
+          display: block;
   }
+  .tbresp-navbaritem2{
+          display: flex;
   
+  }
   
