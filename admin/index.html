@@ -60,7 +60,27 @@
     chat: chatSettings
   });
 </script>
+<script>
+       
+function showNavbar(screenSize){
+    screenSize = window.innerWidth;
 
+    if (screenSize <= 680) {
+        
+        console.log("This is it Check it Out " +screenSize)
+        
+    }
+    else if(screenSize <= 1067){
+
+        console.log("This is it Check it Out part 2 " +screenSize)
+    }
+    else{
+        console.log('The Screen Size is :', screenSize);
+    }
+} 
+</script>
+
+<button style="background-color: green; font-size: 30px; padding:5px 30px;" onclick="showNavbar()">Click Me</button>
 </body>
 </html>
 <!-- <!DOCTYPE html>

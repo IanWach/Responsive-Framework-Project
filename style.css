@@ -8,10 +8,6 @@
                 box-sizing: border-box;
                 font-family: 'Roboto Slab', serif;
         }
-        img:not(.intro-img){
-                width: 500px;
-                height: 500px;
-        }
         body{
                max-width: 1400px;
                 margin: auto;
@@ -339,7 +335,8 @@
                 display: flex;
         }
         .how-img{
-                width: 550px;
+                width:100%;
+                height: auto;
         }
         .how-heading{
                 margin: 0px 40px 40px 40px;

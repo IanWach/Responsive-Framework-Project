@@ -29,19 +29,26 @@ and then it adds Class name to the declared variables above
     }
 
 
-function showNavbar(){
-    if (windowSize <= 480) {
-        nav.addClass = 'mbresp-navbar';
-        nav.style.display = 'block';
-        navList.classList.add = 'mbresp-navlist';
+function showNavbar(screenSize){
+    screenSize = window.innerWidth;
+    let nav1 = document.getElementById('navbar');
+    let navList1 = document.getElementById('nav-list');
+
+    if (screenSize <= 480) {
+        
+        nav1.classList.add("mbresp-navbar");
+        nav1.style.display = 'block';
+        navList1.classList.add ("mbresp-navlist");
         
     }
-    if(windowSize<= 767){
-        
-        navList.classList.add = 'tbresp-navlist';
-        nav.classList.add = 'tbresp-logo'
+    else if(screenSize <= 767){
+
+        nav1.style.display = 'block';
+        navList1.classList.add ("tbresp-navlist");
+        nav1.classList.add ("tbresp-logo");
     }
     else{
-        console.log('The Screen Size is :', windowSize);
+        console.log('The Screen Size is :', screenSize);
     }
+    console.log('The Screen Size is :', screenSize);
 }
