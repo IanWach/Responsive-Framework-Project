@@ -497,12 +497,11 @@
         
        .news-sect{
                 background-color: rgb(255, 255, 255);
-                padding: 10px 50px;
        }
        .news-div{
                 background-color: white;
                 width: 80%;
-                
+                margin: auto;
                 padding: 10px;
        }
        .news-para{
@@ -520,7 +519,7 @@
        }
        .email-tag{
                 font-size: 30px;
-                margin: 50px auto 100px auto;
+                margin: 50px auto 100px 170px;
        }
        .email-input{
         width: 60%;
@@ -530,6 +529,7 @@
         display: block;
         padding: 15px 20px;
         margin: auto;
+        margin-top: 30px;
        }
        .email-submit{
         font-size: 25px;
@@ -549,5 +549,48 @@
                 height: 400px;
                 color: white;
                 position: relative;
+                display: flex;
+                padding-left: 50px;
 
+       }
+       .footer-prt1{
+        flex-basis: 50%;
+        
+       }
+       .footer-prt1 h3{
+        padding: 20px 20px 0px 20px;
+        font-size: 30px;
+        color: #00adff;
+       }
+       .footer-prt1 ul{
+        padding: 20px 50px;
+       }
+       .footer-prt1 ul a{
+        
+        font-size: 22px;
+        text-decoration: none;
+        
+       }
+       .footer-prt1 ul a:visited{ 
+        color: #ffc800;
+       }
+       .footer-prt1 ul a li{
+        list-style-type: none;
+        margin-bottom: 10px;
+       }
+       .footer-prt2{
+        flex-basis: 50%;
+       }
+       .footer-prt2 h3{
+        padding: 20px 20px 0px 20px;
+        font-size: 30px;
+        color: #00adff;
+       }
+       .footer-prt2 div{
+        padding: 20px 50px;
+       }
+       .footer-prt2 div p{
+        margin-bottom: 15px;
+        font-size:20px ;
+        color: orange;
        }
