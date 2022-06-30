@@ -374,6 +374,8 @@
                 font-size: 65px;
                 padding: 20px 70px 35px 70px;
                 text-align: center;
+                color: #00adff;
+                font-weight: bold;
         }
         .steps-div{
                 display: grid;
