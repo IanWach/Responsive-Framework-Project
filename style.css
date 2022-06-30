@@ -546,7 +546,8 @@
        .footer-sect{
 
                 background-color: #36174d;
-                height: 350px;
+                height: 400px;
                 color: white;
+                position: relative;
 
        }
