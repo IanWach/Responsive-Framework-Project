@@ -516,23 +516,29 @@
                 font-size: 25px;
                 color: orange;
                 margin-left: 100px;
+                
        }
        .email-tag{
-                font-size: 40px;
-                margin: 50px 50px 100px 50px;
+                font-size: 30px;
+                margin: 50px auto 100px auto;
        }
        .email-input{
         width: 60%;
         border: #0400ff 3px solid;
         border-radius: 0px;
         font-size: 25px;
+        display: block;
         padding: 15px 20px;
+        margin: auto;
        }
        .email-submit{
         font-size: 25px;
+        display: block;
         padding: 10px 30px;
         border-radius: 30px;
         background-color: orangered;
+        margin: auto;
+        margin-top: 50px;
        }
        .email-submit:hover{
         background-color: orange;
