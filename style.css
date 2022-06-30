@@ -341,6 +341,7 @@
         .how-img{
                 width:100%;
                 height: auto;
+                min-width: 300px;
         }
         .how-heading{
                 margin: 0px 40px 40px 40px;
@@ -351,11 +352,12 @@
                 font-size: 60px;
                 color: rgb(0, 255, 106);
                 padding-bottom: 30px;
-                text-align: center;
                 
         }
         .how-mainh1 span{
                 color: #ff477b;
+                font-size: 50px;
+                text-align: left;
         }
         .how-intropara{
                 font-size: 25px;
@@ -390,11 +392,11 @@
         .steps{
                 width: 400px;
                 text-align: center;
-                margin-bottom: 20px;
+                margin-bottom: 40px;
         }
         .card-header{
-                background-color: #ff477b;
-                color: white;
+                
+                color: black;
                 padding: 60px;
                 font-size: 55px;
                 
@@ -404,7 +406,7 @@
                 background-color: #ffffff;
         }
         .card-para p{
-                font-size: 15px;
+                font-size: 20px;
                 text-align: left;
                 font-weight: bold;
         }
@@ -415,10 +417,31 @@
                 padding-bottom: 15px;
                 
         }
-        .step-1 {
-                
+        .setting-1 {
+                background-color: #00d0ff;
+                color: rgb(0, 255, 106);   
         }
-        
+        .setting-2{
+                background-color: #91ff00;
+                color: #ff477b;
+               
+        }
+        .setting-3{
+                background-color:rgb(0, 255, 106);  
+                color: orange;
+        }
+        .setting-4{
+                background-color: #ff477b;
+                color: #36174d;
+        }
+        .setting-5{
+                background-color: #36174d;
+                color: #00d0ff;   
+        }
+        .setting-6{
+                background-color: orange;
+                color: #91ff00;
+        }
         .qulity-sect{
                 background-color: white;
                 padding: 30px 20px;
@@ -443,6 +466,7 @@
                 width: 45%;
                 margin: 20px auto;
                 font-size: 28px;
+                color: orangered;
         }
         .quality p{
                 width: 50%;
