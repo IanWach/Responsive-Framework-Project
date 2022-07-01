@@ -496,7 +496,7 @@
         }
         
        .news-sect{
-                background-color: rgb(255, 255, 255);
+                background-color: #ffffff;
        }
        .news-div{
                 background-color: white;
@@ -515,6 +515,7 @@
                 font-size: 25px;
                 color: orange;
                 margin-left: 100px;
+                background-color: #ffffff;
                 
        }
        .email-tag{
@@ -530,6 +531,7 @@
         padding: 15px 20px;
         margin: auto;
         margin-top: 30px;
+        background-color: #91ff00;
        }
        .email-submit{
         font-size: 25px;
@@ -572,7 +574,7 @@
         
        }
        .footer-prt1 ul a:visited{ 
-        color: #ffc800;
+        color: #ffffff;
        }
        .footer-prt1 ul a li{
         list-style-type: none;
@@ -592,5 +594,5 @@
        .footer-prt2 div p{
         margin-bottom: 15px;
         font-size:20px ;
-        color: orange;
+        color: rgb(255, 255, 255);
        }
