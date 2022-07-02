@@ -9,9 +9,9 @@
                 font-family: 'Roboto Slab', serif;
         }
         body{
-               max-width: 1400px;
+               
                 margin: auto;
-                margin-top: 50px;
+                max-width: 1400px;
                 justify-content: center;
                 background-color: #ff477b;
                 background-position: center;
@@ -38,9 +38,15 @@
         .header-sect{
                 background-color: #575658;
                 display: grid;
-                grid-template-areas:
-                'logobar logobar navigation navigation navigation access';
+                grid-template-areas: 'logobar logobar navigation navigation navigation access';
                 gap: 10px 30px;
+                top: 0;
+                right: 0;
+                left: 0;
+                padding-bottom: 10px;
+                justify-content: space-between;
+                justify-items: stretch;
+                align-items: center;
         }
         
         /*Logo Section*/
@@ -55,7 +61,7 @@
         /*The Navigation Bar Styles*/
 
         .navbar{
-                margin-top: 25px;
+                
                 justify-content: space-between;
                 align-items: center;
         }
@@ -110,15 +116,20 @@
                 margin-top: 10px !important;
                 color: white;
         }
+        .access-icon:hover{
+                color: black;
+        }
         /*A brief Intro*/
         .landing-sec{
                 background-color: #36174dcb;
+                height: 600px;
         }
         .landing-bg{
                 background-image: url(assets/pexels-christina-morillo-1181467.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
+                
         }
         .intro-container{
                 padding: 0px 30px 30px 30px;
@@ -419,7 +430,7 @@
         }
         .setting-1 {
                 background-color: #00d0ff;
-                color: rgb(0, 255, 106);   
+                color: rgb(0, 0, 0);   
         }
         .setting-2{
                 background-color: #91ff00;
@@ -514,13 +525,12 @@
                 padding: 50px;
                 font-size: 25px;
                 color: orange;
-                margin-left: 100px;
                 background-color: #ffffff;
                 
        }
        .email-tag{
                 font-size: 30px;
-                margin: 50px auto 100px 180px;
+                margin: 50px auto 100px 6.5em;
        }
        .email-input{
                 width: 60%;
@@ -532,19 +542,19 @@
                 margin: auto;
                 margin-top: 30px;
                 background-color: #91ff00;
-                border-radius:50px ;
        }
        .email-submit{
-        font-size: 25px;
-        display: block;
-        padding: 10px 30px;
-        border-radius: 30px;
-        background-color: orangered;
-        margin-left: 190px;
-        margin-top: 50px;
+                font-size: 25px;
+                display: block;
+                padding: 15px 30px;
+                border-radius: 30px;
+                background-color: orangered;
+                margin: auto;
+                margin-top: 50px;
+                width: 60%;
        }
        .email-submit:hover{
-        background-color: orange;
+                background-color: orange;
        }
        .footer-sect{
 
