@@ -36,8 +36,9 @@
 
 
         .header-sect{
-                background-color: #575658;
+                background-color: #403f40;
                 display: grid;
+                border-radius: 10px 10px 0px 0px;
                 grid-template-areas: 'logobar logobar navigation navigation navigation access';
                 gap: 10px 30px;
                 top: 0;
@@ -117,7 +118,7 @@
                 color: white;
         }
         .access-icon:hover{
-                color: black;
+                color: rgb(0, 0, 0);
         }
         /*A brief Intro*/
         .landing-sec{
@@ -489,8 +490,8 @@
         .caption-sect{
                 background-color: #0c0b61;
                 color: white;
-                padding: 50px;
-                height: 300px;
+                padding: 100px 50px;
+                height: 400px;
         }
         .caption-h{
                 font-size: 50px;
@@ -500,7 +501,7 @@
         }
         .caption-para{
                 font-size: 25px;
-                width: 70%;
+                width: 80%;
                 margin: auto 100px;
                 color: #ff477b;
 
@@ -559,7 +560,7 @@
        .footer-sect{
 
                 background-color: #36174d;
-                height: 500px;
+                height: 450px;
                 color: white;
                 position: relative;
                 display: flex;
