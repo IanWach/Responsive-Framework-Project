@@ -520,18 +520,19 @@
        }
        .email-tag{
                 font-size: 30px;
-                margin: 50px auto 100px 170px;
+                margin: 50px auto 100px 180px;
        }
        .email-input{
-        width: 60%;
-        border: #0400ff 3px solid;
-        border-radius: 0px;
-        font-size: 25px;
-        display: block;
-        padding: 15px 20px;
-        margin: auto;
-        margin-top: 30px;
-        background-color: #91ff00;
+                width: 60%;
+                border: #0400ff 3px solid;
+                border-radius: 0px;
+                font-size: 25px;
+                display: block;
+                padding: 15px 20px;
+                margin: auto;
+                margin-top: 30px;
+                background-color: #91ff00;
+                border-radius:50px ;
        }
        .email-submit{
         font-size: 25px;
@@ -539,7 +540,7 @@
         padding: 10px 30px;
         border-radius: 30px;
         background-color: orangered;
-        margin: auto;
+        margin-left: 190px;
         margin-top: 50px;
        }
        .email-submit:hover{
@@ -575,6 +576,9 @@
        }
        .footer-prt1 ul a:visited{ 
         color: #ffffff;
+       }
+       .footer-prt1 ul a:hover{ 
+        color: #ff477b;
        }
        .footer-prt1 ul a li{
         list-style-type: none;

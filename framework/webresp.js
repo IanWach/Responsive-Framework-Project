@@ -34,15 +34,15 @@ function showNavbar(screenSize){
     let nav1 = document.getElementById('navbar');
     let navList1 = document.getElementById('nav-list');
 
-    if (screenSize <= 480) {
-        
+    if (screenSize <= 600) {
+        console.log('The is a Screen Size is :', screenSize);
         nav1.classList.add("mbresp-navbar");
         nav1.style.display = 'block';
         navList1.classList.add ("mbresp-navlist");
         
     }
-    else if(screenSize <= 767){
-
+    else if(screenSize > 600 && screenSize <= 900){
+        console.log('This Screen Size is :', screenSize);
         nav1.style.display = 'block';
         navList1.classList.add ("tbresp-navlist");
         nav1.classList.add ("tbresp-logo");
@@ -50,5 +50,5 @@ function showNavbar(screenSize){
     else{
         console.log('The Screen Size is :', screenSize);
     }
-    console.log('The Screen Size is :', screenSize);
+   
 }
