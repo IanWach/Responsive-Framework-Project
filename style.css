@@ -559,7 +559,7 @@
        .footer-sect{
 
                 background-color: #36174d;
-                height: 400px;
+                height: 500px;
                 color: white;
                 position: relative;
                 display: flex;
@@ -567,46 +567,46 @@
 
        }
        .footer-prt1{
-        flex-basis: 50%;
+                flex-basis: 50%;
         
        }
        .footer-prt1 h3{
-        padding: 20px 20px 0px 20px;
-        font-size: 30px;
-        color: #00adff;
+                padding: 20px 20px 0px 20px;
+                font-size: 30px;
+                color: #00adff;
        }
        .footer-prt1 ul{
-        padding: 20px 50px;
+                padding: 20px 50px;
        }
        .footer-prt1 ul a{
         
-        font-size: 22px;
-        text-decoration: none;
+                font-size: 22px;
+                text-decoration: none;
         
        }
        .footer-prt1 ul a:visited{ 
-        color: #ffffff;
+                color: #ffffff;
        }
        .footer-prt1 ul a:hover{ 
-        color: #ff477b;
+                color: #ff477b;
        }
        .footer-prt1 ul a li{
-        list-style-type: none;
-        margin-bottom: 10px;
+                list-style-type: none;
+                margin-bottom: 10px;
        }
        .footer-prt2{
-        flex-basis: 50%;
+                flex-basis: 50%;
        }
        .footer-prt2 h3{
-        padding: 20px 20px 0px 20px;
-        font-size: 30px;
-        color: #00adff;
+                padding: 20px 20px 0px 20px;
+                font-size: 30px;
+                color: #00adff;
        }
        .footer-prt2 div{
-        padding: 20px 50px;
+                padding: 20px 50px;
        }
        .footer-prt2 div p{
-        margin-bottom: 15px;
-        font-size:20px ;
-        color: rgb(255, 255, 255);
+                margin-bottom: 15px;
+                font-size:20px ;
+                color: rgb(255, 255, 255);
        }
