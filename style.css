@@ -612,8 +612,16 @@
                 padding-left: 50px;
 
        }
+       .footer-logo{
+                width:15rem;
+                padding: 40px 0px;
+       }
+
+        .footer-part0{
+                flex: 1 1 0;
+       }
        .footer-prt1{
-                flex-basis: 50%;
+                flex: 1.5 1 0;
         
        }
        .footer-prt1 h3{
@@ -644,7 +652,7 @@
                 margin-bottom: 10px;
        }
        .footer-prt2{
-                flex-basis: 50%;
+                flex: 1.5 1 0;
        }
        .footer-prt2 h3{
                 padding: 20px 20px 0px 20px;
