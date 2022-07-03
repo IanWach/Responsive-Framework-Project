@@ -6,7 +6,8 @@
         margin: auto;
 }
 .mbresp-navbar{
-        display: none !important ;
+        display: block;
+        background-color: white;
 }
 .mbresp-navlist{
         display: block;

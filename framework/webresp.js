@@ -1,5 +1,15 @@
 //This is the declaration of Variables using IDs
-var windowSize = window.screen.availWidth; 
+
+// $(windowSize).resize(windowSize = $(windowSize).innerWidth())
+function changescreenElement(){
+var windowSize = window.innerWidth;   
+console.log("We have" +windowSize);
+return windowSize;
+}
+window.onresize = function(){
+    changescreenElement()
+    }
+var windowSize = changescreenElement()
 var btn = document.getElementById('webresp-hide1');
 var nav = document.getElementById('navbar');
 var navList = document.getElementById('nav-list');
@@ -31,16 +41,23 @@ and then it adds Class name to the declared variables above
         alert('This Is It ' + windowSize)
     }
 
+    function changeScreenElement1(){
+        var screenSize = window.innerWidth;
+        return screenSize
+        }
+        window.onresize = function(){
+            changeScreenElement1()
+            }
 
 function showNavbar(screenSize){
-    screenSize = window.screen.availWidth;
+        
+    var screenSize = changeScreenElement1()
     let nav1 = document.getElementById('navbar');
     let navList1 = document.getElementById('nav-list');
 
     if (screenSize <= 480) {
-        alert('The is a Screen Size is : ' +screenSize);
+        alert('A Screen Size is : ' +screenSize);
         nav1.classList.add("mbresp-navbar");
-        nav1.style.display = 'block';
         navList1.classList.add ("mbresp-navlist");
         
     }
@@ -51,7 +68,7 @@ function showNavbar(screenSize){
         nav1.classList.add ("tbresp-logo");
     }
     else{
-        alert('The Screen Size is : ' +screenSize);
+        alert('Screen Size is : ' +screenSize);
     }
    
 }
