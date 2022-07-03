@@ -39,7 +39,6 @@
         .header-sect{
                 background-color: #403f40;
                 display: grid;
-                border-radius: 10px 10px 0px 0px;
                 grid-template-areas: 'logobar logobar navigation navigation navigation access';
                 gap: 10px 30px;
                 top: 0;
@@ -52,14 +51,16 @@
         }
         
         /*Logo Section*/
-        .logo{
+        .logo-div{
                 margin-left: 5px;
-                padding: 15px 30px 15px 25px;
+                padding: 5px 30px 5px 25px;
         }
         .logo-text{
                 color: rgb(252, 164, 0);
         }
-
+        .logo{
+                width: 6rem;
+        }
         /*The Navigation Bar Styles*/
 
         .navbar{
@@ -323,7 +324,7 @@
                 flex: 1 1 0;
                 height: 100%;
                 margin: 50px 50px 0px 0px;
-                border: #ff477b 3px solid;
+                border: #36174d 4px solid;
         }
         
         .tag-div2 {
@@ -333,7 +334,7 @@
                 height: 100%;
                 margin: 0px 50px 100px 0px;
                 color: white;
-                border: #ff477b 3px solid;
+                border: #ff477b 4px solid;
         }
         .tag-div3 {
                 background-color: #007423;
@@ -341,7 +342,7 @@
                 flex: 1 1 0;
                 height: 100%;
                 margin: 0px 0px;
-                border: #000000 3px solid;
+                border: #000000 4px solid;
         }
 
         .tags-div div p{
@@ -379,6 +380,7 @@
                 margin: auto;
                 color: yellow;
                 margin-bottom: 50px;
+                text-decoration:underline;
         }
         .how-sect{
                 padding: 10px 30px;
@@ -631,6 +633,9 @@
        .footer-prt1 ul a:visited{ 
                 color: #ffffff;
        }
+       .footer-prt1 ul a:link{ 
+        color: #ffffff;
+}
        .footer-prt1 ul a:hover{ 
                 color: #ff477b;
        }
