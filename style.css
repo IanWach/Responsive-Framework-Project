@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,700;1,400&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,700;1,400&family=Noto+Serif:wght@700&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,700;1,400&family=Libre+Baskerville:ital@0;1&family=Noto+Serif:wght@700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
         *{
                 margin: 0;
                 padding: 0;
@@ -306,48 +307,86 @@
        .intro-img{
                 width: 500px;           
         }
-        .tag-div1  { grid-area: tagdiv1; }
-        .tag-div2 { grid-area: tagdiv2; }
         .tags-div{
                 background-color: #ffffff;
                 padding: 100px 10px 20px 10px;
                 padding-bottom: 100px;
                 display: flex;
+                align-items: flex-end;
+                font-size: 25px;
+                font-weight: bold;
                 
         }
-        .tag-div2{
-                background-image: url(assets/clement-helardot-95YRwf6CNw8-unsplash.jpg);
-                background-size: contain; 
-                background-repeat: no-repeat;            
-                width: 70%;
-
-        }
         .tag-div1{
-                background-color: #00e1ff;
-                padding: 50px 100px;
-                margin:auto auto;
-                border-radius: 70px;
-                width: 80%;
+                background-color: #00adff;
+                padding: 60px 30px 60px 30px;
+                flex: 1 1 0;
+                height: 100%;
+                margin: 50px 50px 0px 0px;
+                border: #ff477b 3px solid;
         }
-        .tag-div1 p{
-                font-size: 25px;
-                color: black;
-                line-height: 60px;
+        
+        .tag-div2 {
+                background-color: #36174d;
+                padding: 50px 30px 80px 30px;
+                flex: 1 1 0;
+                height: 100%;
+                margin: 0px 50px 100px 0px;
+                color: white;
+                border: #ff477b 3px solid;
         }
-       .tags-div p span{
-                font-size: 40px;
-        }
-        .tags-div p span b{
-                font-size: 100px;
+        .tag-div3 {
+                background-color: #007423;
+                padding: 60px 30px 60px 30px;
+                flex: 1 1 0;
+                height: 100%;
+                margin: 0px 0px;
+                border: #000000 3px solid;
         }
 
+        .tags-div div p{
+                font-size: 30px;
+                line-height: 35px;
+                font-size: bold;
+                text-align: center;
+                font-family: 'EB Garamond', serif;
+        }
+        .tag-img{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 20px;
+        }
+        .tag-img2{
+                width: 70%;
+        }
+        .tag-img1,.tag-img3{
+                width: 60%;
+        }
+        .tag-h2{
+                font-size: 30px;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                margin-bottom: 20px;
+                font-weight: bold;
+        }
+        .tag-mrk{
+                background-color:rgba(0, 0, 255, 0) !important ;
+                font-size: 25px;
+                font-weight: bold;
+                text-align: center;
+                display: block;
+                margin: auto;
+                color: yellow;
+                margin-bottom: 50px;
+        }
         .how-sect{
                 padding: 10px 30px;
                 background-color: rgb(255 255 255);
                 display: flex;
-                flex-direction: row-reverse;
+                flex-direction: column-reverse;
                 align-content: stretch;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 align-items: center;
         }
         .how-img{
@@ -359,6 +398,10 @@
                 margin: 0px 40px 40px 40px;
                 padding-top: 0px;
 
+        }
+        .how-div{
+                width: 100%;
+                background-color: #ff477b;
         }
         .how-mainh1{
                 font-size: 60px;
