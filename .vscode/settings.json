@@ -5,5 +5,8 @@
                 "tbresp"
         ],
         "editor.fontFamily": "Consolas, 'Courier New', monospace",
-        "workbench.colorTheme": "Peacock"
+        "workbench.colorTheme": "Peacock",
+        "cSpell.words": [
+                "changescreen"
+        ]
 }
