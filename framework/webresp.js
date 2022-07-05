@@ -1,5 +1,5 @@
-//This is the declaration of Variables using IDs
-
+//Importing Datasets
+var responsiveAttributes = require('./classIdDataset');
 // $(windowSize).resize(windowSize = $(windowSize).innerWidth())
 function changescreenElement(){
 var windowSize = window.innerWidth;   
@@ -12,7 +12,8 @@ window.onresize = () => {
     var windowSize = window.innerWidth;
     }
 
-
+var nav = document.getElementById({previousClass.responsiveAttributes})
+//This is the declaration of Variables using IDs
 var windowSize = changescreenElement()
 var btn = document.getElementById('webresp-hide1');
 var nav = document.getElementById('navbar');
@@ -30,6 +31,7 @@ var hideIcon = document.getElementsByClassName('webresp-hide')
 This code entails A Conditional Statement to detect the window Size 
 and then it adds Class name to the declared variables above
 */
+
     if(windowSize <= 480){
         hideIcon[0].style.display = "block !important";
         nav.classList.add("mbresp-navbar");
@@ -50,10 +52,10 @@ and then it adds Class name to the declared variables above
     function changeScreenElement1(){
         var screenSize = window.innerWidth;
         return screenSize
-        }
+    }
         window.onresize = function(){
             changeScreenElement1()
-            }
+        }
 //Function for an Event Listener when the Menu Bar in the Navbar is clicked.
 function showNavbar(screenSize){
         
@@ -81,5 +83,4 @@ function showNavbar(screenSize){
 
 window.onresize = () => {
     location.reload();
-    
-}
+    }
