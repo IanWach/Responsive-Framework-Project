@@ -77,7 +77,8 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-intrResp",
                 mobileClass :"mbresp-intrResp", 
                 tabletId :"webresp-intrRespId", 
-                mobileId: "webresp-intrRespId",variableName: "nav" 
+                mobileId: "webresp-intrRespId",
+                variableName: "nav" 
         },
          //intrResp 
          {

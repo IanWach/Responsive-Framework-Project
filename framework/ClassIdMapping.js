@@ -31,3 +31,7 @@ responsiveAttributes.map((Item, index) =>{
         
     }
   });
+
+  window.onresize = () => {
+    location.reload();
+    }
