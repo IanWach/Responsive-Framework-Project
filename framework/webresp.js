@@ -42,6 +42,7 @@ var nav = document.getElementById('navbar');
     }
     else{
         alert('This Is It ' + windowSize)
+        hideIcon[0].style.display = "none !important";
     }
 // //Function to reload screen when there is a Resize
 
