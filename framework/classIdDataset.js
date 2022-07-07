@@ -1,5 +1,5 @@
 const responsiveAttributes = [
-        //NavBar 
+        //Navbar 
         {
                 previousClass : "navbar",
                 tabletClass :"tbresp-navbar",
@@ -8,7 +8,7 @@ const responsiveAttributes = [
                 mobileId: "webresp-navbarId",
                 variableName: "nav"
         },
-        //The NavBar List
+        //The Navbar List
         {
                 previousClass : "nav-lists",
                 tabletClass :"tbresp-nav-lists",
@@ -71,141 +71,141 @@ const responsiveAttributes = [
                 mobileId: "webresp-section6",
                 variableName: "sect6"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         },
-         //NavBar 
+         //intrResp 
          {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav"
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         },
-         //NavBar 
+         //intrResp 
          {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav"
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         },
-         //NavBar 
+         //intrResp 
          {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav"
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         },
-         //NavBar 
+         //intrResp 
          {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav"
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         },
-         //NavBar 
+         //intrResp 
          {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav"
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         },
-         //NavBar 
+         //intrResp 
          {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav"
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         },
-         //NavBar 
+         //intrResp 
          {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav"
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         },
-         //NavBar 
+         //intrResp 
          {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav"
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav"
         },
-        //The NavBar List
+        //The intrResp List
         {
-                previousClass : "navbar",
-                tabletClass :"tbresp-navbar",
-                mobileClass :"mbresp-navbar", 
-                tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",variableName: "nav" 
+                previousClass : "intrResp",
+                tabletClass :"tbresp-intrResp",
+                mobileClass :"mbresp-intrResp", 
+                tabletId :"webresp-intrRespId", 
+                mobileId: "webresp-intrRespId",variableName: "nav" 
         }
 ]
 
