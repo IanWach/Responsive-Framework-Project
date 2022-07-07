@@ -3,33 +3,50 @@
         padding: 0;
         box-sizing: border-box;
 }
+body{
+        width: 100%;
+        background-image: url(../assets/Logo.png);
+        background-position: center;
+}
 .admin-sect{
-        background-color: #ffffff;
+        background-color:none ;
+        margin-top: 10px;
 }
 .admin-div{
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.767);
         width: 90%;
         align-items: center;
         padding: 10px;
         display: block;
+        margin: auto;
 }
 .edit-field{
         display: flex;
         flex-direction:row;
         justify-content: space-evenly;
 }
+.admin-logo{
+        width: 50px;
+}
 .admin-para{
         font-size: 50px;
         text-align: center;
         margin-bottom: 0px;
         padding: 25px;
+        color: #300866;
+}
+.admin-para-h3{
+        text-align: center;
+        display: block;
+        color: rgb(255, 0, 85);
+        font-size: 25px;
 }
 .setting-div{
         width: 90%;
         padding: 50px 50px 5px;
         font-size: 25px;
-        color: orange;
-        background-color: #ffffff;
+        color: #030a66;
+        background-color: #350c0c60;
         margin: auto;
         
 }
@@ -58,4 +75,21 @@
 }
 .setting-submit:hover{
         background-color: orange;
+}
+.admin-info{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.733);
+}
+.admin-info div{
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+}
+.admin-info p{
+        color: rgb(38, 0, 255);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height:30px;
 }
