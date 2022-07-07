@@ -1,64 +1,49 @@
-//Importing Datasets
-import {responsiveAttributes} from './classIdDataset.js';
-// $(windowSize).resize(windowSize = $(windowSize).innerWidth())
-function changescreenElement(){
-var windowSize = window.innerWidth;   
-console.log("We have " +windowSize);
-return windowSize;
-}
-window.onresize = () => {
 
-    changescreenElement()
-    var windowSize = window.innerWidth;
-    }
-//Access the Website Attributes
-responsiveAttributes.map((Item, index) =>{
-
-    var variableName = document.getElementById(Item.previousClass);
-    toString (variableName);
-    console.log(variableName);
-
-  });
     // jQuery.each(responsiveAttributes, function(i, val) {
     //     $("#" + i).append(document.createTextNode(" - " + val));
     //   });
                 
-
+    function changescreenElement(){
+        var windowSize = window.innerWidth;   
+        console.log("We have " +windowSize);
+        return windowSize;
+        }
+        window.onresize = () => {
+        
+            changescreenElement()
+            var windowSize = window.innerWidth;
+            }
 //This is the declaration of Variables using IDs
-var windowSize = changescreenElement()
-var btn = document.getElementById('webresp-hide1');
+ var windowSize = changescreenElement()
+// var btn = document.getElementById('webresp-hide1');
 var nav = document.getElementById('navbar');
-var navList = document.getElementById('nav-list');
-var navitem2 = document.getElementById('navbaritem2');
+// var navList = document.getElementById('nav-list');
+// var navitem2 = document.getElementById('navbaritem2');
 
-//This is the Declaration of variables through Class Names
-var hideIcon = document.getElementsByClassName('webresp-hide')
-
-
-//This is the Code to add Class Names with Web Responsive Style
+// //This is the Declaration of variables through Class Names
+ var hideIcon = document.getElementsByClassName('webresp-hide')
 
 
-/*
-This code entails A Conditional Statement to detect the window Size 
-and then it adds Class name to the declared variables above
-*/
+// //This is the Code to add Class Names with Web Responsive Style
+
+
+// /*
+// This code entails A Conditional Statement to detect the window Size 
+// and then it adds Class name to the declared variables above
+// */
 
     if(windowSize <= 480){
         hideIcon[0].style.display = "block !important";
-        nav.classList.add("mbresp-navbar");
-        navitem2.classList.add("mbresp-navbaritem2");
         
     }
     else if(windowSize > 480 && windowSize<= 767){
         hideIcon[0].style.display = "block";
         nav.style.display = "none";
-        nav.classList.add("tbresp-navbar");
-        navitem2.classList.add("tbresp-navbaritem2");
     }
     else{
         alert('This Is It ' + windowSize)
     }
-//Function to reload screen when there is a Resize
+// //Function to reload screen when there is a Resize
 
     function changeScreenElement1(){
         var screenSize = window.innerWidth;
@@ -85,6 +70,7 @@ function showNavbar(screenSize){
         nav1.style.display = 'block';
         navList1.classList.add ("tbresp-navlist");
         nav1.classList.add ("tbresp-logo");
+        
     }
     else{
         alert('Screen Size is : ' +screenSize);
