@@ -1,6 +1,6 @@
 # Responsive-Framework-Project
 
-![Image](/Assets/Framework%20Logo.png)
+![Image](/Assets/Logo.png)
 
 **This is web Responsive Framework aiming at ensuring all Sites are friendly for the Phone, Tablets and Computers`**
 
