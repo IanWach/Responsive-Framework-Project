@@ -2,11 +2,12 @@
         "cSpell.ignoreWords": [
                 "btns",
                 "mbresp",
+                "wbresp",
                 "tbresp"
         ],
         "editor.fontFamily": "Consolas, 'Courier New', monospace",
         "workbench.colorTheme": "Peacock",
         "cSpell.words": [
                 "changescreen"
-        ]
+        ],
 }
