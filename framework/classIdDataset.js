@@ -24,6 +24,7 @@ const responsiveAttributes = [
                 mobileClass :"mb-resp-nav-sect2prt", 
                 tabletId :"webresp-nav-sect2prt", 
                 mobileId: "webresp-nav-sect2prt",
+                variableName: "wb-sect2"
         },
         //The NavBar List
         {
@@ -31,7 +32,8 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",
+                variableName: "nav" 
         },
          //NavBar 
          {
@@ -39,7 +41,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -47,7 +49,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -55,7 +57,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -63,7 +65,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -71,7 +73,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -79,7 +81,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -87,7 +89,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -95,7 +97,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -103,7 +105,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -111,7 +113,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -119,7 +121,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -127,7 +129,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -135,7 +137,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -143,7 +145,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -151,7 +153,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -159,7 +161,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -167,7 +169,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -175,7 +177,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         },
          //NavBar 
          {
@@ -183,7 +185,7 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId",
+                mobileId: "webresp-navbarId",variableName: "nav"
         },
         //The NavBar List
         {
@@ -191,8 +193,8 @@ const responsiveAttributes = [
                 tabletClass :"tbresp-navbar",
                 mobileClass :"mb-resp-navbar", 
                 tabletId :"webresp-navbarId", 
-                mobileId: "webresp-navbarId", 
+                mobileId: "webresp-navbarId",variableName: "nav" 
         }
 ]
 
-module.export = {responsiveAttributes};
+export {responsiveAttributes};

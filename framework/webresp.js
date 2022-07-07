@@ -1,5 +1,5 @@
 //Importing Datasets
-var responsiveAttributes = require('./classIdDataset');
+import {responsiveAttributes} from './classIdDataset.js';
 // $(windowSize).resize(windowSize = $(windowSize).innerWidth())
 function changescreenElement(){
 var windowSize = window.innerWidth;   
@@ -11,8 +11,19 @@ window.onresize = () => {
     changescreenElement()
     var windowSize = window.innerWidth;
     }
+//Access the Website Attributes
+responsiveAttributes.map((Item, index) =>{
 
-var nav = document.getElementById({previousClass.responsiveAttributes})
+    var variableName = document.getElementById(Item.previousClass);
+    toString (variableName);
+    console.log(variableName);
+
+  });
+    // jQuery.each(responsiveAttributes, function(i, val) {
+    //     $("#" + i).append(document.createTextNode(" - " + val));
+    //   });
+                
+
 //This is the declaration of Variables using IDs
 var windowSize = changescreenElement()
 var btn = document.getElementById('webresp-hide1');
