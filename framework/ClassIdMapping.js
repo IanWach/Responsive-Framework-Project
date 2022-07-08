@@ -9,7 +9,6 @@ return windowSize;
 window.onresize = () => {
 
     changescreenElement()
-    var windowSize = window.innerWidth;
     }
 //Access the Website Attributes
 responsiveAttributes.map((Item, index) =>{
@@ -32,6 +31,28 @@ responsiveAttributes.map((Item, index) =>{
     }
   });
 
+  //Function to add Values to the Dataset
+  
+    
+  document.getElementsByTagName('form').addEventListener("submit", function addAttributes(){
+
+       var prvClass = document.getElementById('prev-cls').value;
+        var idName = document.getElementById('current-id').value;
+        var tabltCls = document.getElementById('mobile-cls').value;
+        var mobilCls = document.getElementById('tablt-cls').value;
+
+    responsiveAttributes.push({
+        //The Navbar List
+            previousClass : prvClass,
+            tabletClass :tabltCls,
+            mobileClass :mobilCls, 
+            tabletId :idName, 
+            mobileId: idName,
+            variableName: "navlist" 
+    },
+    );  
+  });
+  console.log(responsiveAttributes[responsiveAttributes.length-1]);
   window.onresize = () => {
     location.reload();
     }

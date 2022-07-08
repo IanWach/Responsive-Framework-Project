@@ -15,22 +15,23 @@
                                 <h2 class="admin-para"><i><img class="admin-logo" src="../assets/Logo.png"/></i>INTRA-RESPONSIVE&trade; ATTRIBUTES SETTINGS</h2>
                                 <h3 class="admin-para-h3">Admin Panel</h3>
                                 <div class="setting-div">
-                                        <div class="edit-field">
-                                                <div>
-                                                        <label for="prev-class" class="setting-tag">Previous Class</label>
-                                                        <input class="setting-input" id="prev-cls" type="text" name="prev-class" placeholder="Previous Class Name">
-                                                        <label for="email" class="setting-tag">Add an ID Name </label>
-                                                        <input class="setting-input" id="current-id" type="text" name="email" placeholder="Enter an ID Name">
+                                        <form onsubmit="addAttributes()">
+                                                <div class="edit-field">
+                                                        <div>
+                                                                <label for="prev-class" class="setting-tag">Previous Class</label>
+                                                                <input class="setting-input" id="prev-cls" type="text" name="prev-class" placeholder="Previous Class Name">
+                                                                <label for="addId" class="setting-tag">Add an ID Name </label>
+                                                                <input class="setting-input" id="current-id" type="text" name="addId" placeholder="Enter an ID Name">
+                                                        </div>
+                                                        <div>
+                                                                <label for="mobile-c" class="setting-tag">Mobile Class</label>
+                                                                <input class="setting-input" id="mobile-cls" type="text" name="mobile-c" placeholder="Class Name for Mobile">
+                                                                <label for="tablet-c" class="setting-tag">Tablet Screen Class</label>
+                                                                <input class="setting-input" id="tablt-cls" type="text" name="tablet-c" placeholder="Class Name for Mobile">
+                                                        </div>
                                                 </div>
-                                                <div>
-                                                        <label for="mobile-c" class="setting-tag">Mobile Class</label>
-                                                        <input class="setting-input" id="mobile-id" type="text" name="mobile-c" placeholder="Class Name for Mobile">
-                                                        <label for="tablet-c" class="setting-tag">Tablet Screen Class</label>
-                                                        <input class="setting-input" id="tablt-cls" type="text" name="tablet-c" placeholder="Class Name for Mobile">
-                                                </div>
-                                        </div>
-                                        <input type="submit" class="setting-submit">
-                                         
+                                                <input type="submit" class="setting-submit">
+                                        </form>
                                 </div>
                         </div>
                 </section>
@@ -41,7 +42,7 @@
                                 </p>
                         </div>
                 </section>
-
+                
                 <script>
                 var chatSettings = {
                         bot: {
@@ -66,5 +67,6 @@
                         chat: chatSettings
                         });
                 </script>
+                <script type="module" src="../ClassIdMapping.js"></script>
         </body>
 </html>
