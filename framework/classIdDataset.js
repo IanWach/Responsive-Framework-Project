@@ -211,3 +211,15 @@ const responsiveAttributes = [
 ]
 
 export {responsiveAttributes};
+
+document.getElementsByTagName('form')[0].addEventListener("submit", function addAttributes(){
+
+        var prvClass = document.getElementById('prev-cls').value;
+         var idName = document.getElementById('current-id').value;
+         var tabltCls = document.getElementById('mobile-cls').value;
+         var mobilCls = document.getElementById('tablt-cls').value;
+
+         return prvClass,idName,tabltCls,mobilCls
+});
+
+export function addAttributes(){}
