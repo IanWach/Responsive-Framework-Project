@@ -6,7 +6,7 @@
                 "tbresp"
         ],
         "editor.fontFamily": "Consolas, 'Courier New', monospace",
-        "workbench.colorTheme": "Peacock",
+        "workbench.colorTheme": "Atom One Dark",
         "cSpell.words": [
                 "changescreen"
         ],

@@ -6,16 +6,21 @@ var windowSize = window.innerWidth;
 console.log("We have " +windowSize);
 return windowSize;
 }
-window.onresize = () => {
+    window.onresize = () => {
 
-    changescreenElement()
-    }
-//Access the Website Attributes
-responsiveAttributes.map((Item, index) =>{
+        changescreenElement()
+        }
+    //Access the Website Attributes
+    
+    responsiveAttributes.map((Item, index) =>{
 
     var variableName = document.getElementsByClassName(Item.previousClass);
     console.log(variableName);
     var windowSize = changescreenElement()
+    /*
+    This code entails A Conditional Statement to detect the window Size 
+    and then it adds Class name to the declared variables above
+    */
     if(windowSize <= 480){
             for (let i = 0; i < variableName.length; i++) {
                 variableName.item(i).classList.add(Item.mobileClass);
@@ -48,7 +53,7 @@ responsiveAttributes.map((Item, index) =>{
             mobileClass :mobilCls, 
             tabletId :idName, 
             mobileId: idName,
-            variableName: "navlist" 
+            variableName: null 
     },
     );  
   });
