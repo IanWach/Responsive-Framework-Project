@@ -15,7 +15,7 @@
 				<h2 class="admin-para"><i><img class="admin-logo" src="../assets/Logo.png"/></i>INTRA-RESPONSIVE&trade; ATTRIBUTES SETTINGS</h2>
 				<h3 class="admin-para-h3">Admin Panel</h3>
 				<div class="setting-div">
-					<form>
+					<form id="form-settings" method="post" action="./admin.php" onsubmit="addAttributes()">
 						<div class="edit-field">
 							<div>
 								<label for="prev-class" class="setting-tag">Previous Class</label>
@@ -30,7 +30,7 @@
 								<input class="setting-input" id="tablt-cls" type="text" name="tablet-c" placeholder="Class Name for Mobile">
 							</div>
 						</div>
-						<input type="submit" class="setting-submit">
+						<input type="submit" class="setting-submit" name="submit">
 					</form>
 				</div>
 			</div>
