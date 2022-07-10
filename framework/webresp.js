@@ -15,9 +15,6 @@
     
     //This is the Declaration of variables through Class Names
     var hideIcon = document.getElementsByClassName('webresp-hide')
-
-    //This is the Code to add Class Names with Web Responsive Style
-
    /*
    This is Conditional Statement to detect the window size of the Screen
    and then edit some styles depending on the screen size

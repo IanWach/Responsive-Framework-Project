@@ -203,8 +203,8 @@ const responsiveAttributes = [
         //The intrResp List
         {
                 previousClass : "intrResp",
-                tabletClass :"tbresp-intrResp",
-                mobileClass :"mbresp-intrResp", 
+                tabletClass :"tbresp-intr",
+                mobileClass :"mbresp-intr", 
                 tabletId :"webresp-intrRespId", 
                 mobileId: "webresp-intrRespId",variableName: "nav" 
         }

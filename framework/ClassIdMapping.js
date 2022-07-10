@@ -4,7 +4,6 @@ import {addAttributes} from './classIdDataset.js';
 // $(windowSize).resize(windowSize = $(windowSize).innerWidth())
 function changescreenElement(){
 var windowSize = window.innerWidth;   
-console.log("We have " +windowSize);
 return windowSize;
 }
     window.onresize = () => {
@@ -12,11 +11,8 @@ return windowSize;
         changescreenElement()
         }
     //Access the Website Attributes
-    
     responsiveAttributes.map((Item, index) =>{
-
     var variableName = document.getElementsByClassName(Item.previousClass);
-    console.log(variableName);
     var windowSize = changescreenElement()
     /*
     This code entails A Conditional Statement to detect the window Size 
@@ -40,13 +36,13 @@ return windowSize;
   //Function to add Values to the Dataset
   
     
-//   document.getElementsByTagName('form')[0].addEventListener("submit", function addAttributes(){
-
-//        var prvClass = document.getElementById('prev-cls').value;
-//         var idName = document.getElementById('current-id').value;
-//         var tabltCls = document.getElementById('mobile-cls').value;
-//         var mobilCls = document.getElementById('tablt-cls').value;
-    var editAttributes = addAttributes( )
+  var formValues = document.getElementById('form-settings')
+    formValues.addEventListener("submit", function addAttributes(){
+       var prvClass = document.getElementById('prev-cls').value;
+        var idName = document.getElementById('current-id').value;
+        var tabltCls = document.getElementById('mobile-cls').value;
+        var mobilCls = document.getElementById('tablt-cls').value;
+    //var editAttributes = addAttributes( )
         responsiveAttributes.push({
             
         //The Navbar List
@@ -57,9 +53,10 @@ return windowSize;
             mobileId: idName,
             variableName: null 
     },
-    );  
-  //});
-  console.log(responsiveAttributes[responsiveAttributes.length-1]);
+    );
+    console.log(responsiveAttributes[responsiveAttributes.length-1]);  
+  });
+  
   window.onresize = () => {
     location.reload();
     }
