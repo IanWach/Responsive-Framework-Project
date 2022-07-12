@@ -14,13 +14,13 @@ return windowSize;
     var windowSize = changescreenElement()
 
     console.log(Item.tabletId)
-    console.log(jsonAttributes)
+    console.log(elementAttributes)
     /*
     This code entails A Conditional Statement to detect the window Size 
     and then it adds Class name to the declared variables above
     */
     if(windowSize <= 480){
-        for (let i = 0; i < jsonAttributes.length; i++) {
+        for (let i = 0; i < elementAttributes.length-1; i++) {
             elementAttributes.item(i).classList.add(Item.mobileClass);
             }
         }
