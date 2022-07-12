@@ -15,19 +15,20 @@
 				<h2 class="admin-para"><i><img class="admin-logo" src="../assets/Logo.png"/></i>INTRA-RESPONSIVE&trade; ATTRIBUTES SETTINGS</h2>
 				<h3 class="admin-para-h3">Admin Panel</h3>
 				<div class="setting-div">
-					<form id="form-settings" method="post" action="./admin.php" onsubmit="addAttributes()">
+					<form id="form-settings" method="post" action="admin.php" onsubmit="addAttributes()">
+						<h6>***Insert The Mobile Class, Tablet Class and Add ID Name after the given Prefix</h6>
 						<div class="edit-field">
 							<div>
 								<label for="prev-class" class="setting-tag">Previous Class</label>
-								<input class="setting-input" id="prev-cls" type="text" name="prev-class" placeholder="Previous Class Name">
+								<input class="setting-input" id="prev-cls" type="text" name="prev-class" placeholder="Previous Class Name" required>
 								<label for="addId" class="setting-tag">Add an ID Name </label>
-								<input class="setting-input" id="current-id" type="text" name="addId" placeholder="Enter an ID Name">
+								<input class="setting-input" id="current-id" type="text" pattern="webresp-.+" value="webresp-" name="addId" placeholder="Enter an ID Name" required>
 							</div>
 							<div>
 								<label for="mobile-c" class="setting-tag">Mobile Class</label>
-								<input class="setting-input" id="mobile-cls" type="text" name="mobile-c" placeholder="Class Name for Mobile">
+								<input class="setting-input" id="mobile-cls" type="text" pattern="mbresp-.+" value="mbresp-" name="mobile-c" placeholder="Class Name for Mobile" required>
 								<label for="tablet-c" class="setting-tag">Tablet Screen Class</label>
-								<input class="setting-input" id="tablt-cls" type="text" name="tablet-c" placeholder="Class Name for Mobile">
+								<input class="setting-input" id="tablt-cls" type="text" pattern="tbresp-.+" value="tbresp-" name="tablet-c" placeholder="Class Name for Mobile" required>
 							</div>
 						</div>
 						<input type="submit" class="setting-submit" name="submit">

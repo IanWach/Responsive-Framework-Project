@@ -1,57 +1,50 @@
-<?php 
-
- $error =NULL;
-  //Code to check if the submit form is clicked
-  if (isset ($_POST['submit'])){
-
-    //Get From data
-     $PrevClass = $_POST['prev-class'];
-     $AddId  = $_POST['addId'];
-     $TabletClass = $_POST['tablet-c'];
-     $MobileClass = $_POST['mobile-c'];
+   <?php
+  $error =NULL;      
+  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                   
+    function get_data() {
+      $file_name='classIdDataset'. '.json';
+      $PrevClass = $_POST['prev-class'];
+      $AddId  = $_POST['addId'];
+      $TabletClass = $_POST['tablet-c'];
+      $MobileClass = $_POST['mobile-c'];
     //Coditions to ensure no empty Inputs and Short attributes
  
-     if(strlen ($PrevClass) < 3 ){
-       $error = " Your Class Name must be at least 5 characters";
-       echo $error;
-       }
-       elseif( strlen($AddId) < 5){
-         $error ="The ID Name is Too Short";
-         echo $error;
-       }
-       elseif(strlen($TabletClass||$MobileClass)<10){
-        $error = "The Mobile Class or Tablet Class is to Short (at least 10 characters";
-       }
-       else{
-         //Form is Valid
- 
-         //Connect to Database
-         $db_name="IntraResp";
- 
-        $mysqli =NEW mysqli ('localhost','root','',$db_name) or die ("error:".mysqli_error($mysqli));
- 
-         //Clean Data
-         $PrevClass = $mysqli->real_escape_string($PrevClass);
-         $AddId = $mysqli->real_escape_string($AddId);
-         $TabletClass = $mysqli->real_escape_string($TabletClass);
-         $MobileClass = $mysqli->real_escape_string($MobileClass);
-         
-   
- 
-         //generate key
-         $key = md5( time ().$AddId);
-         $insert=mysqli_query($mysqli,"insert into login  values ('','$PrevClass','$AddId','$TabletClass','$MobileClass','$key') ") or die (mysqli_error($mysqli));
+    if (file_exists("$file_name")) {
+      $current_data=file_get_contents("$file_name");
+      $array_data=json_decode($current_data, true);
+                                 
+        $extra=array(
+            'previousClass' => $PrevClass,
+            'tabletClass' => $TabletClass,
+            'mobileClass' => $MobileClass,
+            'tabletId' => $AddId,
+            'mobileId' => $AddId,
+              );
+            $array_data[]=$extra;
+            echo "file exist<br/>";
+            return json_encode($array_data);
+        } else {
+            $newdata=array();
+            $newdata[]=array(
+              'previousClass' => $PrevClass,
+              'tabletClass' => $TabletClass,
+              'mobileClass' => $MobileClass,
+              'tabletId' => $AddId,
+              'mobileId' => $AddId,
+                );
+            echo "file not exist<br/>";
+            return json_encode($newdata);
+    }
+}
+      $file_name='classIdDataset'. '.json';
         
-         $success=mysqli_query($mysqli,$insert);
-         if($insert){
-           echo "Successfully inserted";
-         }
-         else{
-           echo "FAILED";
-         }
- 
-         echo $key;
-         
-       }
+      if(file_put_contents("$file_name", get_data())) {
+          echo 'success';
+      }                
+      else {
+          echo 'There is some error';                
+      }
   }
-?>
+         
+  ?>

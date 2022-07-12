@@ -20,6 +20,14 @@ body{
         display: block;
         margin: auto;
 }
+h6{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #fbff00;
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+}
 .edit-field{
         display: flex;
         flex-direction:row;
@@ -93,3 +101,83 @@ body{
         text-align: center;
         line-height:30px;
 }
+
+
+
+h3 { 
+        text-align: center; 
+    } 
+
+    img { 
+        display: block; 
+        margin: auto;  
+    } 
+
+    .input { 
+        margin: 6px; 
+        padding: 10px; 
+        display: block; 
+        margin: auto; 
+        color: palevioletred; 
+        font-size: 30px; 
+    } 
+
+    input { 
+        width: 90%; 
+        display: block; 
+        margin-left: 12px; 
+        background: none; 
+        background-color: lightyellow; 
+    } 
+
+    select { 
+        width: 90%; 
+        display: block; 
+        margin-left: 12px; 
+        background: none; 
+        background-color: lightyellow; 
+    } 
+
+    #heading { 
+        font-family: cursive; 
+        text-align: center; 
+        color: green; 
+        padding-top: 20px; 
+
+    } 
+
+    #form_page { 
+        height: 500px; 
+        width: 50%; 
+        display: flex; 
+        flex-wrap: wrap; 
+        flex-direction: row; 
+        margin: auto; 
+
+    } 
+
+    #form_body { 
+        border-radius: 12px; 
+        height: 330px; 
+        width: 450px; 
+        background-color: beige; 
+        border: 1px solid pink; 
+        margin: auto; 
+        margin-top: 12px; 
+    } 
+
+    #text { 
+        color: red; 
+        width: 100px; 
+    } 
+
+    #head { 
+        border-bottom: 2px solid red; 
+        height: 100px; 
+        background-color: aliceblue; 
+    } 
+
+    #submit { 
+        background-color: white; 
+        width: 70px; 
+    }
