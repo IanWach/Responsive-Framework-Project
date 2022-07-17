@@ -8,7 +8,7 @@
       $AddId  = $_POST['addId'];
       $TabletClass = $_POST['tablet-c'];
       $MobileClass = $_POST['mobile-c'];
-    //Coditions to ensure no empty Inputs and Short attributes
+    //Conditions to ensure no empty Inputs and Short attributes
  
     if (file_exists("$file_name")) {
       $current_data=file_get_contents("$file_name");
