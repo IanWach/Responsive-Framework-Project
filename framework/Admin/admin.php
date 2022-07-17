@@ -22,7 +22,7 @@
             'mobileId' => $AddId,
               );
             $array_data[]=$extra;
-            echo "file exist<br/>";
+            echo '<script>alert("The File Exists file exist")</script>';
             return json_encode($array_data);
         } else {
             $newdata=array();
@@ -40,7 +40,8 @@
       $file_name='classIdDataset'. '.json';
         
       if(file_put_contents("$file_name", get_data())) {
-          echo 'success';
+          echo '<script>alert("The Data was added successfully")</script>';
+          echo file_get_contents("admin.html");
       }                
       else {
           echo 'There is some error';                
