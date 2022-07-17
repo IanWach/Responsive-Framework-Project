@@ -76,10 +76,7 @@
 }
 
         .tbresp-landing-sect{
-        display: flex;
-        padding: 30px;
-        align-items: center;
-        background-color: rgb(245 178 154);
+        flex-direction: column;
 }
         .tbresp-landing-imgdiv{
         width: 500px;

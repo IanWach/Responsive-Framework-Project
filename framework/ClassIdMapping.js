@@ -1,5 +1,5 @@
 //Importing Datasets
-import jsonAttributes from './classIdDataset.json' assert {type: 'json'};
+import jsonAttributes from '../framework/Admin/classIdDataset.json' assert {type: 'json'};
 function changescreenElement(){
 var windowSize = window.innerWidth;   
 return windowSize;
