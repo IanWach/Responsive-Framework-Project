@@ -41,7 +41,7 @@
         
       if(file_put_contents("$file_name", get_data())) {
           echo '<script>alert("The Data was added successfully")</script>';
-          echo file_get_contents("admin.html");
+          echo file_get_contents("theadmin.html");
       }                
       else {
           echo 'There is some error';                
