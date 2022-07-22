@@ -8,9 +8,17 @@ return windowSize;
 
         changescreenElement()
         }
+    //Variable to check the device
+    let detailsOnDevice = navigator.userAgent;
 
-    let isMobile = window.matchMedia("only screen and (max-width: 480px)").matches;
-    console.log(isMobile)
+    //Variable Check if the Device is a Mobile
+    let regexp = /android|iphone|kindle|ipad/i;
+    let isMobileDevice = regexp.test(detailsOnDevice);
+    console.log(isMobileDevice)
+    console.log(detailsOnDevice)
+    //Variable Check if the Device is a Tablet
+    let regexp2  = /Tablet|iPad/i;
+    let isTabletDevice = regexp2.test(detailsOnDevice);
     //Access the Website Attributes
     jsonAttributes.map((Item, index) =>{
     var elementAttributes = document.getElementsByClassName(Item.previousClass);
@@ -22,12 +30,12 @@ return windowSize;
     This code entails A Conditional Statement to detect the window Size 
     and then it adds Class name to the declared variables above
     */
-    if(windowSize <= 480 || isMobile ){
+    if(windowSize <= 480 || isMobileDevice ){
         for (let i = 0; i < elementAttributes.length-1; i++) {
             elementAttributes.item(i).classList.add(Item.mobileClass);
             }
         }
-    else if(windowSize > 480 && windowSize<= 767 ){  
+    else if(windowSize > 480 && windowSize<= 767 || isTabletDevice ){  
         for (let i = 0; i < elementAttributes.length; i++) {
             elementAttributes.item(i).classList.add(Item.tabletClass);
         }
