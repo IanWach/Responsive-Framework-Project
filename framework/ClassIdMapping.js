@@ -41,7 +41,7 @@ return windowSize;
         }
     }
     else{
-        
+       console.log("This is the Desktop Screen i.e Laptop") 
     }
   });
   window.onresize = () => {
