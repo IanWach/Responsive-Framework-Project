@@ -25,8 +25,8 @@
             echo '<script>alert("The File Exists file exist")</script>';
             return json_encode($array_data);
         } else {
-            $newdata=array();
-            $newdata[]=array(
+            $newData=array();
+            $newData[]=array(
               'previousClass' => $PrevClass,
               'tabletClass' => $TabletClass,
               'mobileClass' => $MobileClass,
@@ -34,7 +34,7 @@
               'mobileId' => $AddId,
                 );
             echo "file not exist<br/>";
-            return json_encode($newdata);
+            return json_encode($newData);
     }
 }
       $file_name='classIdDataset'. '.json';
