@@ -34,6 +34,13 @@
                 font-family: 'IBM Plex Sans', sans-serif;
                 padding-left: 10px;
                 padding-bottom: 5px;
+                display: none;
+}
+        .tbresp-logo-txt1{
+                display: block;
+                font-family: 'IBM Plex Sans', sans-serif;
+                padding-left: 10px;
+                padding-bottom: 5px;
 }
         .tbresp-navbar{
                 display: grid;
@@ -91,4 +98,15 @@
         .tbresp-content{
                 font-size: 40px
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1100px){
+        .landing-sect{
+                flex-direction: column;
+                align-items: center;
+        }
+        .content-sect{
+                padding: 20px;
+        }
+}
+
   

@@ -29,6 +29,12 @@ body{
         padding-left: 10px;
         padding-bottom: 5px;
 }
+.logo-txt1{
+        display: none;
+}
+.logo-txt2{
+        display: none;
+}
 .navbar{
         display: grid;
         grid-template-columns: repeat(3, 2fr);
