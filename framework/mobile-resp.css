@@ -180,3 +180,26 @@
 .mbresp-content{
         font-size: 60px
 }
+
+/* This is the CSS for the Responsive Admin Page on Mobile*/
+
+        .mbresp-edit-field{
+                flex-direction: column;
+}
+        .mbresp-admin-para{
+                font-size: 30px;
+}
+        .mbresp-form-h6{
+                font-size: 15px;
+}
+        .mbresp-admin-info-para{
+                font-size: 13px;
+}
+        .mbresp-content-mb{
+                display: block;
+                color: rgb(0, 110, 255);
+                font-size: 35px;
+}
+        .mbresp-content-sect{
+                display: none;
+}

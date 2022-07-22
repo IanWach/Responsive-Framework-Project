@@ -8,6 +8,11 @@
 		<link rel="stylesheet" href="admin.css" type="text/css">
 		<script src="https://web-chat.nativechat.com/3.1.1/sdk/nativechat.js"></script>
 		<link href="https://web-chat.nativechat.com/3.1.1/sdk/nativechat.css" rel="stylesheet" type="text/css">
+
+		<!--The Responsive Web Links for the CSS -->
+		<link rel="stylesheet" href="../mobile-resp.css" type="text/css">
+		<link rel="stylesheet" href="../tablet-resp.css" type="text/css">
+
 	</head>
 	<body>
 		<section class="admin-sect">
@@ -16,7 +21,7 @@
 				<h3 class="admin-para-h3">Admin Panel</h3>
 				<div class="setting-div">
 					<form id="form-settings" method="post" action="admin.php" onsubmit="addAttributes()">
-						<h6>***Insert The Mobile Class, Tablet Class and Add ID Name after the given Prefix</h6>
+						<h6 class="form-h6">***Insert The Mobile Class, Tablet Class and Add ID Name after the given Prefix</h6>
 						<div class="edit-field">
 							<div>
 								<label for="prev-class" class="setting-tag">Previous Class</label>
@@ -37,8 +42,8 @@
 			</div>
 		</section>
 		<section class="admin-info">
-			<div>
-				<p>*** This is an Admin Page to add and edit Classes. This includes adding Attributes to be used fro the Web Responsive Purposes.
+			<div class="admin-info-div">
+				<p class="admin-info-para">*** This is an Admin Page to add and edit Classes. This includes adding Attributes to be used fro the Web Responsive Purposes.
 				This information is then inserted into a dataSet that will access the data.
 				</p>
 			</div>

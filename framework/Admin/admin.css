@@ -20,7 +20,7 @@ body{
         display: block;
         margin: auto;
 }
-h6{
+.form-h6{
         text-align: center;
         font-size: 20px;
         margin-bottom: 20px;
@@ -88,13 +88,13 @@ h6{
         width: 100%;
         background-color: rgba(255, 255, 255, 0.733);
 }
-.admin-info div{
+.admin-info-div{
         padding: 10px;
         width: 80%;
         margin: auto;
         background-color: rgb(255, 255, 255);
 }
-.admin-info p{
+.admin-info-para{
         color: rgb(38, 0, 255);
         font-size: 20px;
         font-weight: bold;
