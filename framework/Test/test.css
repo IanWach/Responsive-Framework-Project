@@ -84,11 +84,11 @@ body{
         background-color: rgb(245 178 154);
 }
 .landing-imgdiv{
-        width: 500px;
+        width: 600px;
         padding: 50px;
 }
 .landing-img{
-        width: 400px;
+        width: 500px;
 }
 .content-sect{
         padding: 10px 20px 10px 40px;
@@ -110,6 +110,9 @@ body{
                 align-items: center;
         }
         .content-sect{
-                padding: 20px;
+                padding: auto;
+        }
+        .content{
+                font-size: 46px;
         }
 }

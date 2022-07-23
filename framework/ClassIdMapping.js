@@ -30,8 +30,8 @@ return windowSize;
     This code entails A Conditional Statement to detect the window Size 
     and then it adds Class name to the declared variables above
     */
-    if(windowSize <= 480 || isMobileDevice ){
-        for (let i = 0; i < elementAttributes.length-1; i++) {
+    if(windowSize <= 480 ||isMobileDevice ){
+        for (let i = 0; i < elementAttributes.length; i++) {
             elementAttributes.item(i).classList.add(Item.mobileClass);
             }
         }

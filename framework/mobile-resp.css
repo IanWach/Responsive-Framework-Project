@@ -7,7 +7,6 @@
 }
 .mbresp-navbar{
         display: block;
-        background-color: rgb(255, 255, 255);
 }
 .mbresp-navlist{
         display: block;
@@ -28,31 +27,36 @@
 
 .mbresp-header-sect{
         
-        padding: 10px 15px;
+        padding: 25px 10px;
 }
 .mbresp-logo-div{
-        display: flex;
-        align-items: flex-end;
+        display: grid;
 }
 .mbresp-logo-img{
-        width: 70px;
+        width: 50px;
 
+}
+.mbresp-logo-txt{
+        display: none;
 }
 .mbresp-logo-txt{
         font-family: 'IBM Plex Sans', sans-serif;
         padding-left: 10px;
         padding-bottom: 5px;
+
 }
 .mbresp-logo-txt2{
-        display: block;
+        display: inline-block;
         font-family: 'IBM Plex Sans', sans-serif;
         padding-left: 10px;
         padding-bottom: 5px;
+        font-size: 14px;
+        word-wrap:unset;
 }
 .mbresp-navbar{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px 100px;
+        display: flex;
+        grid-template-columns: repeat(10, 2fr);
+        gap: 10px 30px;
         font-size: 20px;
         align-items: center;
         justify-items: end;
@@ -65,6 +69,7 @@
 }
 .mbresp-nav-lists {
         position: relative;
+        font-size: 14px;
 }
 .mbresp-naview-icon{
         right: 0;
@@ -76,10 +81,13 @@
         text-align: left;
 }
 .mbresp-navbar-btns {
-
+        display: flex;
+        flex-direction: column;
 }
 .mbresp-navbar-btn{
-        margin-bottom: 3px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        padding: 5px 10px;
 }
 .mbresp-navbar-btn:nth-child(2){
         background-color: orangered;
@@ -93,93 +101,25 @@
         flex-direction: column;
 }
 .mbresp-landing-imgdiv{
-         width: 500px;
-        padding: 50px;
+        width: 350px;
+        padding: 30px;
 }
 .mbresp-landing-img{
-        width: 400px;
+        width: 300px;
 }
 .mbresp-content-sect{
-        padding: 20px 10px 10px 40px;
+        padding: 0px;
+
 }
 .mbresp-content{
         font-size: 40px
 }
-
-
-.mbresp-header-sect{
-        
-        padding: 10px 15px;
-}
-.mbresp-logo-div{
-        display: flex;
-        align-items: flex-end;
-}
-.mbresp-logo-img{
-        width: 70px;
-
-}
-.mbresp-logo-txt{
-        font-family: 'IBM Plex Sans', sans-serif;
-        padding-left: 10px;
-        padding-bottom: 5px;
-}
-.mbresp-navbar{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px 100px;
-        font-size: 20px;
-        align-items: center;
-        justify-items: end;
-}
-
-.mbresp-nav-lists li:not(:first-child) {display: none;}
-.mbresp-naview-icon {
-        float: left;
-        display: block !important;
-}
-.mbresp-nav-lists {
-        position: relative;
-}
-.mbresp-naview-icon{
-        right: 0;
-        top: 0;
-}
-.mbresp-nav-lists li{
-        float: none;
+.mbresp-content-mb{
         display: block;
-        text-align: left;
-}
-.mbresp-navbar-btns {
-
-}
-.mbresp-navbar-btn{
-        margin-bottom: 3px;
-}
-.mbresp-navbar-btn:nth-child(2){
-        background-color: orangered;
-}
-.mbresp-highlight-div{
-        height: 50px;
-        background-color: orangered;
+        color: rgb(0, 110, 255);
+        font-size: 30px;
 }
 
-.mbresp-landing-sect{
-        flex-direction: column;
-}
-.mbresp-landing-imgdiv{
-         width: 500px;
-        padding: 50px;
-}
-.mbresp-landing-img{
-        width: 400px;
-}
-.mbresp-content-sect{
-        padding: 10px 150px 10px 40px;
-}
-.mbresp-content{
-        font-size: 60px
-}
 
 /* This is the CSS for the Responsive Admin Page on Mobile*/
 
@@ -194,11 +134,6 @@
 }
         .mbresp-admin-info-para{
                 font-size: 13px;
-}
-        .mbresp-content-mb{
-                display: block;
-                color: rgb(0, 110, 255);
-                font-size: 35px;
 }
         .mbresp-content{
                 display: none;
