@@ -24,7 +24,9 @@
 
 /*Code for Test File*/
 /*This is CSS For The Test File*/
-
+.mbresp-body{
+        margin-top: 0;
+}
 .mbresp-header-sect{
         
         padding: 25px 10px;

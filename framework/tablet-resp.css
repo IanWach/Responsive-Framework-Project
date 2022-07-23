@@ -1,24 +1,26 @@
-.tbresp-header{
+        .tbresp-header{
         display: block;  
   }
-  .tbresp-logo{
+        .tbresp-logo{
           text-align: center;
           margin: auto;
   }
-  .tbresp-navbar{
+        .tbresp-navbar{
 
   }
-  .tbresp-navlist{
+        .tbresp-navlist{
           
   }
-  .tbresp-navbaritem2{
+        .tbresp-navbaritem2{
           display: flex;
   
   }
 
   /*This is CSS For The Test File*/
+        .tbresp-body{
 
-  .tbresp-header-sect{
+        }
+        .tbresp-header-sect{
         
                 padding: 10px 15px;
 }
