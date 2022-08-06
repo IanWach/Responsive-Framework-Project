@@ -32,7 +32,7 @@
               'mobileClass' => $MobileClass,
               'tabletId' => $AddId,
               'mobileId' => $AddId,
-                );
+              );
             echo "file not exist<br/>";
             return json_encode($newData);
     }
